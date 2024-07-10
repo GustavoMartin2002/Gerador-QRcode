@@ -22,3 +22,24 @@
 - O projeto utiliza o Bootstrap para tornar o site responsivo para dispositivos móveis; <br>
 - Certifique-se de que você está conectado à internet para que a API de geração de QR Code funcione corretamente; <br>
  - A limpeza de URLs de objeto em 1 minuto é uma medida para evitar o consumo excessivo de memória. Caso precise ajustar esse tempo, modifique o valor na função setTimeout. <br>
+
+##
+
+### 🚀 Como Usar:
+
+#### Clone o repositório:
+- git clone https://github.com/GustavoMartin2002/Gerador-QRcode.git
+
+#### Navegue até o Diretório do Projeto:
+- cd gerador-qrcode
+
+#### Abra o Arquivo "index.html" no Navegador:
+- Você pode abrir o arquivo diretamente no navegador ou usar um servidor local como o Live Server do VSCode para facilitar o desenvolvimento.
+
+#### Conecte-se à Internet:
+- Certifique-se de que seu dispositivo está conectado à internet para que a API de geração de QR Code funcione corretamente.
+
+#### Utilize o Gerador de QR Code:
+- Insira a URL desejada no campo de entrada e selecione o tamanho do QR Code que você deseja baixar.
+
+### Pronto! Agora você pode gerar e baixar QR Codes diretamente do seu navegador.
