@@ -1,12 +1,9 @@
-/* Centralização do conteudo */
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-}
 /* Aplica os estilos dentro deste bloco apenas se a largura da tela for 768 pixels ou maior. */
+.containerBox{
+    transition: height 0.5s ease-in-out; /* Transição na altura */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa a altura */
+}
+
 @media(min-width: 768px){
     .containerBox{
         width: 50%;
@@ -31,4 +28,19 @@ body{
         display: flex;
         flex-direction: column;
     }
+}
+/* animação qr surgindo */
+@keyframes qr {
+	0% {
+		transform: scaleY(0);
+	}
+
+	100% {
+        display: block;
+		transform: scaleY(1);
+	}
+}
+
+#imgBox.show {
+    animation: qr 2s ease 0s 1 normal forwards;
 }

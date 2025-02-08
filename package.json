@@ -1,0 +1,20 @@
+{
+  "name": "gerador-qrcode",
+  "version": "1.0.0",
+  "description": "- Inserção de URL para geração de QR Code; <br>\r - Geração de QR Code utilizando uma API externa; <br>\r - Opções para download do QR Code em diferentes tamanhos. <br>",
+  "homepage": "https://github.com/GustavoMartin2002/Gerador-QRcode#readme",
+  "bugs": {
+    "url": "https://github.com/GustavoMartin2002/Gerador-QRcode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoMartin2002/Gerador-QRcode.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -17,8 +17,10 @@ function generateQR() {
     qrImage.onload = function() {
         // Exibe o contêiner(imagem) do QR Code e o botão(Baixar) para abrir o modal de download
         imgBox.classList.remove("d-none");
+        imgBox.classList.add('show');
         btnBaixar.classList.remove("d-none");
-
+        containerBox.classList.add('show');
+        
         // Configura os botões de download para os diferentes tamanhos
         setupDownloadButton(download150, 150);
         setupDownloadButton(download300, 300);
