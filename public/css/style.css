@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-sans {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* Aplica os estilos dentro deste bloco apenas se a largura da tela for 768 pixels ou maior. */
 .containerBox{
     transition: height 0.5s ease-in-out; /* Transição na altura */
